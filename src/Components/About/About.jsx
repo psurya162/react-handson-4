@@ -5,7 +5,12 @@ import {Link,BrowserRouter,NavLink} from "react-router-dom"
 const About = () => {
   return (
     <div>
+      <div className="parent">
+       
         <h2 className='Heading-name'>Student</h2>
+        <button className='button'>Add New Student</button>
+      </div>
+       
        <table >
         <thead>
           <th>NAME</th>
